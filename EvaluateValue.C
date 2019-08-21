@@ -23,7 +23,7 @@ EvaluateValue::EvaluateValue(char* input_str)
         //string_stream.str("");    
         //std::cout<<*input_str<<std::endl;
         input_str++;
-        std::cout<<*input_str<<std::endl;
+       // std::cout<<*input_str<<std::endl;
         while(*input_str!=')')
         {
             string_stream2 << *input_str;
