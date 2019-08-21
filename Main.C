@@ -10,7 +10,7 @@ int main()
     cout << "(<to>/<from>,rate,time)"<<endl;
     cin >> input_str;
     EvaluateValue *e = new EvaluateValue(input_str);
-    e->Printall();
+    //e->Printall();
     cout << e->Calculate();
     return 0;
 }
