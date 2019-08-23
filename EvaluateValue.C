@@ -18,12 +18,8 @@ EvaluateValue::EvaluateValue(char* input_str)
             string_stream1 << *input_str;
             input_str++;
         }     
-        //std::cout << string_stream.str()<<std::endl;
         string_stream1 >> rate;  
-        //string_stream.str("");    
-        //std::cout<<*input_str<<std::endl;
         input_str++;
-       // std::cout<<*input_str<<std::endl;
         while(*input_str!=')')
         {
             string_stream2 << *input_str;
